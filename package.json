@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-section-10-3",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "firebase": "^8.2.9",
+    "moment": "^2.29.1",
+    "vuexfire": "^3.2.5"
+  }
+}
