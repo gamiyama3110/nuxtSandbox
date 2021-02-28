@@ -1,10 +1,11 @@
-# nuxt-section-10-3
+# nuxtSandbox
 
 ## Build Setup
 
 ```bash
 # install dependencies
 $ npm install
+$ npm install --production
 
 # serve with hot reload at localhost:3000
 $ npm run dev

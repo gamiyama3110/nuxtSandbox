@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-section-10-3',
+    title: 'nuxtSandbox',
     htmlAttrs: {
       lang: 'en'
     },
@@ -57,3 +57,4 @@ export default {
     ]
   }
 }
+

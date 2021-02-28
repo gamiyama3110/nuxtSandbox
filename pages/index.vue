@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        nuxt-section-10-3
+        nuxtSandbox
       </h1>
       <div class="links">
         <a
@@ -22,6 +22,8 @@
         >
           GitHub
         </a>
+        
+        <a href="/todos" class="button--grey">TODOS</a>
       </div>
     </div>
   </div>
