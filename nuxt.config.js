@@ -1,3 +1,5 @@
+import webpack from 'webpack';
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -43,7 +45,15 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
+  // Build Configuration: https://ja.nuxtjs.org/docs/2.x/configuration-glossary/configuration-build/
+  // 色々定義できるってのが分かった。
   build: {
+    plugins: [
+      // グローバルな形でプラグインが使えるようになる
+      // lodashの宣言をここでしかやってないんだけど、どうやってインポートしてるん？
+      new webpack.ProvidePlugin({
+        '_': 'lodash'
+      })
+    ]
   }
 }

@@ -16,7 +16,9 @@
   "devDependencies": {
     "@nuxtjs/dotenv": "^1.4.1",
     "firebase": "^8.2.9",
+    "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "vuexfire": "^3.2.5"
+    "vuexfire": "^3.2.5",
+    "webpack": "^4.46.0"
   }
 }
