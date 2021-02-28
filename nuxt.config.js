@@ -51,6 +51,8 @@ export default {
     plugins: [
       // グローバルな形でプラグインが使えるようになる
       // lodashの宣言をここでしかやってないんだけど、どうやってインポートしてるん？
+      // nuxtに含まれてるので明示的にinstallしなくても動くっぽい。webpackも同様。
+      // package.jsonに明示的にしておく。
       new webpack.ProvidePlugin({
         '_': 'lodash'
       })
